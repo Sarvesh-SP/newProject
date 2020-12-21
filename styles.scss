@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital@0;1&display=swap');
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+
+    font-family: 'Poppins', sans-serif;
+}
+.main-header {
+    text-align: center;
+    font-size: 60px;
+    font-weight: normal;
+    font-family: "Great Vibes", cursive;
+    margin: 60px 0;
+}
+.cont1{
+    display: flex;
+    margin-left: 10px;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    justify-content: center;
+    
+    .student {
+
+        border-left: 1px solid black;
+        padding: 30px;
+        
+        
+        h3 {
+            font-style: italic;
+            display: block;
+            text-align: center;
+            font-size: 30px;
+
+            span {
+                display: block;
+            }
+        }
+    }
+    .puppies {
+        border: 1px solid black;
+        padding: 30px;
+
+
+        
+        h3 {
+            font-style: italic;
+            display: block;
+            text-align: center;
+            font-size: 30px;
+
+            span {
+                display: block;
+            }
+        }
+    }
+
+    .cssis {
+        border-right: 1px solid black;
+        padding: 30px;
+        
+        h3 {
+            font-style: italic;
+            display: block;
+            text-align: center;
+            font-size: 30px;
+            
+            span {
+                display: block;
+            }
+        }
+
+    }
+}
+
+.cont2{
+    display: flex;
+    flex-direction: row;
+    border:1px solid black;
+    margin-left: 10px;
+    padding-bottom: 0;
+    
+    .boy {
+        border-left: 1px solid black;
+        padding: 30px;
+        text-align: left;
+        h3 {
+            text-align: center;
+            font-size: 30px;
+            font-style: italic;
+        }
+    }
+    .last {
+        margin: 0;
+        border: 1px solid black;
+        padding: 30px;
+        flex-grow: 1;
+        padding: 0;
+        .box {
+
+            list-style: none;
+            display: flex;
+            flex: 1;
+            align-items: center;
+            height: 141px;
+            padding-left: 40px;
+            font-size: 30px;
+            &:nth-child(1){
+                background-color: #ffeaa7;
+            }
+            &:nth-child(2){
+                background-color: #81ecec;
+            }
+            &:nth-child(3){
+                background-color: #55efc4;
+            }
+            &:nth-child(4){
+                background-color: #74b9ff;
+            }
+            &:nth-child(5){
+                background-color: #a29bfe;
+
+            }
+    
+        }
+
+    }
+}
+
+.half {
+    width: 50%;
+}
+.quarter {
+    width: 25%;
+}
