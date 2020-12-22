@@ -23,13 +23,13 @@ body {
     border-top: 1px solid black;
     border-bottom: 1px solid black;
     justify-content: center;
-    
+
     .student {
 
         border-left: 1px solid black;
         padding: 30px;
-        
-        
+
+
         h3 {
             font-style: italic;
             display: block;
@@ -39,14 +39,20 @@ body {
             span {
                 display: block;
             }
+
         }
+        p{
+            line-height: 1.8;
+            font-size: 18px;
+        }
+
     }
     .puppies {
         border: 1px solid black;
         padding: 30px;
 
 
-        
+
         h3 {
             font-style: italic;
             display: block;
@@ -62,13 +68,13 @@ body {
     .cssis {
         border-right: 1px solid black;
         padding: 30px;
-        
+
         h3 {
             font-style: italic;
             display: block;
             text-align: center;
             font-size: 30px;
-            
+
             span {
                 display: block;
             }
@@ -83,7 +89,7 @@ body {
     border:1px solid black;
     margin-left: 10px;
     padding-bottom: 0;
-    
+
     .boy {
         border-left: 1px solid black;
         padding: 30px;
@@ -125,7 +131,7 @@ body {
                 background-color: #a29bfe;
 
             }
-    
+
         }
 
     }
@@ -133,7 +139,12 @@ body {
 
 .half {
     width: 50%;
+
 }
 .quarter {
     width: 25%;
+
+}
+.corgi {
+    width: 100%;
 }
